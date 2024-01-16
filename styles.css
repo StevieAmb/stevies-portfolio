@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+img {
+  border-radius: 10px;
+}
+
+nav {
+  margin: 0;
+  display: flex;
+  gap: 3rem;
+  padding: 1rem 4rem;
+  background-color: blue;
+}
