@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .about-me {
@@ -20,4 +20,8 @@ nav {
   padding: .1rem 4rem 0 60rem;
   background-color: #B8A04A;
   color: white;
+}
+
+.experience, .projects {
+  text-align: center;
 }
