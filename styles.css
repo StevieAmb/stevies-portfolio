@@ -6,7 +6,7 @@ body {
 .about-me {
   display: flex;
   gap: 3rem;
-  margin: 1.5rem;
+  margin: 2rem 0 0 3.5rem;
 }
 
 img {
@@ -20,6 +20,11 @@ nav {
   padding: .1rem 4rem 0 60rem;
   background-color: #B8A04A;
   color: white;
+}
+
+.projects-layout {
+  display: flex;
+  flex-direction: row;
 }
 
 .experience, .projects {
