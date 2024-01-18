@@ -9,6 +9,10 @@ body {
   margin: 2rem 0 5rem 3.5rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   border-radius: 10px;
 }
@@ -35,12 +39,6 @@ nav {
   filter: sepia(0);
 }
 
-/* hr { 
-  background-color: rgb(0, 128, 126);
-  height: 10px; 
-  border: 0; 
-} */
-
 .project-details {
   width: 50%;
   height: 35%;
@@ -48,6 +46,7 @@ nav {
 
 .project-section-title {
   text-align: center;
+  margin-bottom: 7%;
 }
 
 .project {
@@ -55,10 +54,6 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-summary, details {
-  text-decoration: none;
 }
 
 .experience{
