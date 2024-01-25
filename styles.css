@@ -31,7 +31,6 @@ nav {
 
 .skills-list {
   display: flex;
-  flex-wrap: wrap;
   margin: 0 3.5rem;
   gap: 1rem;
 }
@@ -40,7 +39,7 @@ nav {
   background-color: #2596be;
   display: flex;
   gap: 1em;
-  width: 15rem;
+  width: 17rem;
 }
 
 .hero-image {
