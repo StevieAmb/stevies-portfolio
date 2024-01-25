@@ -25,7 +25,8 @@ nav {
   color: white;
 }
 
-.skills {
+.skills-list {
+  margin-left: 3.5rem;
   display: flex;
   gap: 1rem;
 }
