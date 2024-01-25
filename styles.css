@@ -5,8 +5,13 @@ body {
 
 .about-me {
   display: flex;
+  justify-content: flex-start;
   gap: 3rem;
-  margin: 2rem 0 5rem 3.5rem;
+  margin: 4rem 0 4.5rem 4.5rem;
+}
+
+.about-info {
+  width: 25%;
 }
 
 a {
@@ -31,7 +36,7 @@ nav {
 
 .skills-list {
   display: flex;
-  margin: 0 3.5rem;
+  margin: 0 4.5rem;
   gap: 1rem;
   flex-wrap: wrap;
 }
