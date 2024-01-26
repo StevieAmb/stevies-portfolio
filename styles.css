@@ -4,6 +4,7 @@ body {
 }
 
 .about-me {
+  padding-top: 2.5rem;
   display: flex;
   justify-content: flex-start;
   gap: 3rem;
@@ -61,7 +62,7 @@ nav {
 .experience {
   margin-top: 5%;
   text-align: center;
-  background-color: white;
+  background-color: #f5d59c;
 }
 
 .hidden {
