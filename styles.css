@@ -4,6 +4,7 @@ body {
 }
 
 .about-me {
+  padding-top: 2.5rem;
   display: flex;
   justify-content: flex-start;
   gap: 3rem;
@@ -36,7 +37,7 @@ nav {
 
 .skills-list {
   display: flex;
-  margin: 0 4.5rem;
+  margin: 5rem 5.5rem;
   gap: 1rem;
   flex-wrap: wrap;
 }
@@ -45,7 +46,7 @@ nav {
   background-color: #2596be;
   display: flex;
   gap: 1em;
-  width: 17rem;
+  width: 19rem;
 }
 
 .hero-image {
@@ -61,7 +62,7 @@ nav {
 .experience {
   margin-top: 5%;
   text-align: center;
-  background-color: white;
+  background-color: #f5d59c;
 }
 
 .hidden {
