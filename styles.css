@@ -49,6 +49,11 @@ nav {
   width: 19rem;
 }
 
+.skills-tabs:hover, .skills-tabs:focus {
+  background-color: #f5d59c;
+  box-shadow: 3px 3px 4px #1c7190;
+}
+
 .hero-image {
   display: flex;
   justify-content: flex-end;
@@ -62,7 +67,7 @@ nav {
 .experience {
   margin-top: 5%;
   text-align: center;
-  background-color: #f5d59c;
+  background-color: #17617c;
 }
 
 .hidden {
