@@ -43,15 +43,17 @@ nav {
 }
 
 .skills-tabs {
-  background-color: #2596be;
+  border: 4px solid #2596be;
+  color: #2596be ;
   display: flex;
+  padding: 1px;
   gap: 1em;
-  width: 19rem;
+  width: 18.26rem;
 }
 
 .skills-tabs:hover, .skills-tabs:focus {
   background-color: #f5d59c;
-  box-shadow: 3px 3px 4px #1c7190;
+  box-shadow: 3px 3px 4px 7px #1c7190;
 }
 
 .hero-image {
