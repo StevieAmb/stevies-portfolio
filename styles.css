@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #f5f5dc;
 }
 
 .about-me {
@@ -15,6 +16,10 @@ body {
   width: 25%;
 }
 
+.about-me-details {
+  font-size: 18px;
+}
+
 a {
   text-decoration: none;
 }
@@ -25,51 +30,51 @@ img {
 
 nav {
   margin: 0;
+}
+
+.nav-tabs {
   display: flex;
   gap: 3rem;
-  padding: .1rem 4rem 0 60rem;
-  /* color: white; */
+  padding: .1rem 6rem 0 58rem;
 }
 
 .skills {
   text-align: center;
+  background-color: white;
+  padding: 2rem 0;
 }
 
 .skills-list {
   display: flex;
+  background-color: white;
   margin: 5rem 5.5rem;
   gap: 1rem;
   flex-wrap: wrap;
 }
 
 .skills-tabs {
-  border: 4px solid #2596be;
+  border: 3.25px solid #2596be;
   color: #2596be ;
   display: flex;
   padding: 1px;
   gap: 1em;
-  width: 18.26rem;
+  width: 18.45rem;
 }
 
 .skills-tabs:hover, .skills-tabs:focus {
-  background-color: #f5d59c;
   box-shadow: 3px 3px 4px 7px #1c7190;
-}
-
-.hero-image {
-  display: flex;
-  justify-content: flex-end;
-  background-image: url('images/pexels-brett-sayles-1454288\ \(1\).jpg');
-  width: 100%;
-  height: 99.9vh;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .experience {
   margin-top: 5%;
   text-align: center;
   background-color: #17617c;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
 }
 
 .hidden {
