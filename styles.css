@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: beige;
 }
 
 .about-me {
@@ -52,7 +53,6 @@ nav {
 }
 
 .skills-tabs:hover, .skills-tabs:focus {
-  background-color: #f5d59c;
   box-shadow: 3px 3px 4px 7px #1c7190;
 }
 
@@ -70,6 +70,7 @@ nav {
   margin-top: 5%;
   text-align: center;
   background-color: #17617c;
+  color: white;
 }
 
 .hidden {
