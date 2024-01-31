@@ -9,6 +9,7 @@ body {
   display: flex;
   justify-content: flex-start;
   gap: 3rem;
+  padding-bottom: 4rem;
   margin: 4rem 0 4.5rem 4.5rem;
 }
 
@@ -32,10 +33,14 @@ nav {
   margin: 0;
 }
 
+nav h1 a {
+  width: 10rem;
+}
+
 .nav-tabs {
   display: flex;
   gap: 3rem;
-  padding: .1rem 6rem 0 58rem;
+  padding: .1rem 6rem 0 51rem;
 }
 
 .skills {
@@ -73,8 +78,14 @@ nav {
 }
 
 footer {
+  background-color: #17617c;
   text-align: center;
+  color: white;
   padding: 2rem;
+}
+
+footer p {
+  margin: 0;
 }
 
 .hidden {
