@@ -10,7 +10,7 @@ nav {
   gap: 34rem;
   padding: .1rem 4rem 0 2rem;
   color: white;
-  background-color: #f5f5dc;
+  background-color: #FF7F7F ;
   margin-bottom: 4rem;
 }
 
@@ -39,7 +39,7 @@ border-radius: 10px;
 .project-button {
   height: 4rem;
   width: 8rem;
-  background-color: rgb(0, 128, 126);
+  background-color: #738080;
   font: 1.2rem "Fira Sans", sans-serif;
   color: white;
   border: none;
@@ -56,13 +56,13 @@ border-radius: 10px;
   border: .7px solid black;
   border-radius: 4px;
   box-shadow: /* Bottom shadow */
-  0px 2.5px 0px lightcyan,
+  0px 2.5px 0px #668080,
   
   /* Left shadow */
-  -2.5px 0px 0px lightcyan,
+  -2.5px 0px 0px #668080,
   
   /* Right shadow */
-  2.5px 0px 0px lightcyan,
+  2.5px 0px 0px #668080,
   
   /* No top shadow */
   0px 0px 0px 0px;
