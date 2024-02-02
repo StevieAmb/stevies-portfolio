@@ -31,11 +31,23 @@ img {
 
 nav {
   margin: 0;
-  color: 008080;
+  color: #008080;
 }
 
 nav h1 a {
   width: 10rem;
+}
+
+a:link {
+  color: #008080;
+}
+
+a:visited {
+  color: #008080;
+}
+
+a:active {
+  color: #008080;
 }
 
 .nav-tabs {
