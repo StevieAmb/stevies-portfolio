@@ -39,15 +39,15 @@ nav h1 a {
 }
 
 a:link {
-  color: #008080;
+  color: #800000 ;
 }
 
 a:visited {
-  color: #008080;
+  color: #800000 ;
 }
 
 a:active {
-  color: #008080;
+  color: #800000 ;
 }
 
 .nav-tabs {
