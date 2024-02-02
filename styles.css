@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #f5f5dc;
+  background-color: #FFF2F2;
 }
 
 .about-me {
@@ -31,10 +31,23 @@ img {
 
 nav {
   margin: 0;
+  color: #008080;
 }
 
 nav h1 a {
   width: 10rem;
+}
+
+a:link {
+  color: #800000 ;
+}
+
+a:visited {
+  color: #800000 ;
+}
+
+a:active {
+  color: #800000 ;
 }
 
 .nav-tabs {
@@ -58,8 +71,8 @@ nav h1 a {
 }
 
 .skills-tabs {
-  border: 3.25px solid #2596be;
-  color: #2596be ;
+  border: 3.25px solid #998080;
+  color: #998080 ;
   display: flex;
   padding: 1px;
   gap: 1em;
@@ -67,7 +80,7 @@ nav h1 a {
 }
 
 .skills-tabs:hover, .skills-tabs:focus {
-  box-shadow: 3px 3px 4px 7px #1c7190;
+  box-shadow: 3px 3px 4px 7px #8D8080;
 }
 
 .experience {
@@ -78,7 +91,7 @@ nav h1 a {
 }
 
 footer {
-  background-color: #17617c;
+  background-color: #8D8080;
   text-align: center;
   color: white;
   padding: 2rem;

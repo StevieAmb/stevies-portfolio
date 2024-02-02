@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: #fef9f9
 }
 
 nav {
@@ -10,12 +11,16 @@ nav {
   gap: 34rem;
   padding: .1rem 4rem 0 2rem;
   color: white;
-  background-color: #f5f5dc;
+  background-color: teal;
   margin-bottom: 4rem;
 }
 
 img {
 border-radius: 10px;
+}
+
+h1 {
+  color: #998080;
 }
 
 .projects-layout {
@@ -39,7 +44,7 @@ border-radius: 10px;
 .project-button {
   height: 4rem;
   width: 8rem;
-  background-color: rgb(0, 128, 126);
+  background-color: #738080;
   font: 1.2rem "Fira Sans", sans-serif;
   color: white;
   border: none;
@@ -53,16 +58,16 @@ border-radius: 10px;
   justify-content: center;
   align-items: center;
   padding: 2.5rem;
-  border: .7px solid black;
+  border: .7px solid #998080;
   border-radius: 4px;
   box-shadow: /* Bottom shadow */
-  0px 2.5px 0px lightcyan,
+  0px 2.8px 0px #E6F2F2,
   
   /* Left shadow */
-  -2.5px 0px 0px lightcyan,
+  -2.8px 0px 0px #E6F2F2,
   
   /* Right shadow */
-  2.5px 0px 0px lightcyan,
+  2.8px 0px 0px #E6F2F2,
   
   /* No top shadow */
   0px 0px 0px 0px;
@@ -74,6 +79,17 @@ border-radius: 10px;
   display: flex;
   justify-content: center;
   gap: 3rem;
+}
+
+footer {
+  background-color: #8D8080;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}
+
+footer h4 {
+  margin: 0;
 }
 
 .hidden {
