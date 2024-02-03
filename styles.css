@@ -13,6 +13,7 @@ body {
   gap: 3rem;
   padding-bottom: 4rem;
   margin: 4rem 0 4.5rem 4.5rem;
+  min-height: 50vh;
 }
 
 .about-info {
@@ -70,6 +71,7 @@ a:active {
   background-color: white;
   padding: 2rem 0;
   flex-wrap: wrap;
+  min-height: 35vh;
 }
 
 .skills-list {
@@ -99,7 +101,6 @@ a:active {
 }
 
 footer {
-  /* min-width: 100vw; */
   background-color: #8D8080;
   text-align: center;
   color: white;
