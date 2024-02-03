@@ -75,6 +75,29 @@ h1 {
   0px 0px 0px 0px;
 }
 
+.project:hover, .project:focus {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem;
+  border: .7px solid #998080;
+  border-radius: 4px; */
+  margin: -2.8px;
+  padding: 2.7rem;
+  box-shadow: /* Bottom shadow */
+  0px 2.8px 0px #f6d8d8,
+  
+  /* Left shadow */
+  -2.8px 0px 0px #f6d8d8,
+  
+  /* Right shadow */
+  2.8px 0px 0px #f6d8d8,
+  
+  /* No top shadow */
+  0px 0px 0px 0px;
+}
+
 .connection-part {
   color: black;
   padding: 10px;
