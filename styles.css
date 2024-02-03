@@ -32,6 +32,8 @@ img {
 nav {
   margin: 0;
   color: #008080;
+  background-color: white;
+  box-shadow: 3px 3px 3px 2px #800000;
 }
 
 nav h1 a {
@@ -70,13 +72,17 @@ a:active {
   flex-wrap: wrap;
 }
 
+.skills-logo {
+  width: 3.8rem;
+}
+
 .skills-tabs {
-  border: 3.25px solid #998080;
+  border: 3px solid #998080;
   color: #998080 ;
   display: flex;
   padding: 1px;
   gap: 1em;
-  width: 18.45rem;
+  width: 18.25rem;
 }
 
 .skills-tabs:hover, .skills-tabs:focus {

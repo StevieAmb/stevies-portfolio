@@ -5,14 +5,15 @@ body {
 }
 
 nav {
-  margin: 0;
   display: flex;
   justify-content: flex-start;
-  gap: 34rem;
+  gap: 70rem;
   padding: .1rem 4rem 0 2rem;
-  color: white;
-  background-color: teal;
-  margin-bottom: 4rem;
+  margin: 0;
+  color: #008080;
+  background-color: white;
+  box-shadow: 3px 3px 3px 2px #800000;
+  margin-bottom: 6rem;
 }
 
 img {
@@ -28,6 +29,7 @@ h1 {
   gap: 7rem;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 7rem;
 }
 
 .project-details {
@@ -61,13 +63,13 @@ h1 {
   border: .7px solid #998080;
   border-radius: 4px;
   box-shadow: /* Bottom shadow */
-  0px 2.8px 0px #E6F2F2,
+  0px 2.8px 0px #F2E6E6,
   
   /* Left shadow */
-  -2.8px 0px 0px #E6F2F2,
+  -2.8px 0px 0px #F2E6E6,
   
   /* Right shadow */
-  2.8px 0px 0px #E6F2F2,
+  2.8px 0px 0px #F2E6E6,
   
   /* No top shadow */
   0px 0px 0px 0px;
