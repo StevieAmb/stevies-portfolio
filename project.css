@@ -15,6 +15,18 @@ nav {
   margin-bottom: 5rem;
 }
 
+a:link {
+  color: #800000 ;
+}
+
+a:visited {
+  color: #800000 ;
+}
+
+a:active {
+  color: #800000 ;
+}
+
 img {
 border-radius: 10px;
 }
@@ -47,7 +59,7 @@ h2 {
 .project-button {
   height: 4rem;
   width: 8rem;
-  background-color: #738080;
+  background-color: #809999;
   font: 1.2rem "Fira Sans", sans-serif;
   color: white;
   border: none;
