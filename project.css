@@ -7,7 +7,7 @@ body {
 nav {
   display: flex;
   justify-content: flex-start;
-  gap: 34rem;
+  gap: 70rem;
   padding: .1rem 4rem 0 2rem;
   margin: 0;
   color: #008080;
@@ -63,13 +63,13 @@ h1 {
   border: .7px solid #998080;
   border-radius: 4px;
   box-shadow: /* Bottom shadow */
-  0px 2.8px 0px #adcdcd,
+  0px 2.8px 0px #d6dddd,
   
   /* Left shadow */
-  -2.8px 0px 0px #adcdcd,
+  -2.8px 0px 0px #d6dddd,
   
   /* Right shadow */
-  2.8px 0px 0px #adcdcd,
+  2.8px 0px 0px #d6dddd,
   
   /* No top shadow */
   0px 0px 0px 0px;
