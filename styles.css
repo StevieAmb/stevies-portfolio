@@ -2,8 +2,7 @@ body {
   margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #FFF2F2;
-  min-height: 100vh;
-  min-width: 100vh;
+  min-width: 100vw;
 }
 
 .about-me {
@@ -11,7 +10,6 @@ body {
   display: flex;
   justify-content: flex-start;
   gap: 3rem;
-  min-width: 100vw;
   padding-bottom: 4rem;
   margin: 4rem 0 4.5rem 4.5rem;
 }
@@ -33,6 +31,9 @@ img {
 }
 
 nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   margin: 0;
   color: #008080;
   min-width: 100vw;
@@ -59,7 +60,7 @@ a:active {
 .nav-tabs {
   display: flex;
   gap: 3rem;
-  padding: .1rem 6rem 0 51rem;
+  padding-right: 2rem;
 }
 
 .skills {
@@ -67,15 +68,14 @@ a:active {
   text-align: center;
   background-color: white;
   padding: 2rem 0;
+  flex-wrap: wrap;
 }
 
 .skills-list {
   display: flex;
-  background-color: white;
   margin: 5rem 5.5rem;
   gap: 1rem;
   flex-wrap: wrap;
-  min-width: 100vw;
 }
 
 .skills-logo {
@@ -95,15 +95,8 @@ a:active {
   box-shadow: 3px 3px 4px 7px #8D8080;
 }
 
-.experience {
-  margin-top: 5%;
-  text-align: center;
-  background-color: #17617c;
-  color: white;
-}
-
 footer {
-  min-width: 100vw;
+  /* min-width: 100vw; */
   background-color: #8D8080;
   text-align: center;
   color: white;
