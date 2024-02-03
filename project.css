@@ -63,13 +63,13 @@ h1 {
   border: .7px solid #998080;
   border-radius: 4px;
   box-shadow: /* Bottom shadow */
-  0px 2.8px 0px #d6dddd,
+  0px 2.8px 0px #F2E6E6,
   
   /* Left shadow */
-  -2.8px 0px 0px #d6dddd,
+  -2.8px 0px 0px #F2E6E6,
   
   /* Right shadow */
-  2.8px 0px 0px #d6dddd,
+  2.8px 0px 0px #F2E6E6,
   
   /* No top shadow */
   0px 0px 0px 0px;
