@@ -20,6 +20,11 @@ body {
   width: 25%;
 }
 
+.profile-image {
+  height: 28rem;
+  width: 20rem;
+}
+
 .about-me-details {
   font-size: 18px;
 }
