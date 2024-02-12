@@ -10,7 +10,7 @@ body {
   padding-top: 2.5rem;
   display: flex;
   justify-content: flex-start;
-  gap: 3rem;
+  gap: 5rem;
   padding-bottom: 4rem;
   margin: 4rem 0 4.5rem 4.5rem;
   min-height: 50vh;
@@ -26,7 +26,7 @@ body {
 }
 
 .about-me-details {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 a {
@@ -119,3 +119,48 @@ footer p {
 .hidden {
   display: none;
 }
+
+@media screen and (max-width: 992px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin: 4rem 0;
+  }
+
+  .about-info {
+    width: 75%;
+    text-align: center;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .about-me {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin: 4rem 0;
+  }
+
+  .about-info {
+    width: 75%;
+    text-align: center;
+  }
+}
+
+
+/* To make this mobile responsive, the front page,
+I need the about me to display block, and probably change
+the size of the image and the font size.
+The skills section seems good, and I just need to change
+the footer, so that it is showing at the bottom
+of the page, without that gap at the bottom.
+Maybe I need to add the background color only to the about me
+section on desktop view. 
+
+NAV MENU - needs a hamburger icon, so I need to get one
+ABOUT ME - shrink how long it is, make is display block
+FOOTER - Make it bigger*/
