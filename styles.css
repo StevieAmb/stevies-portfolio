@@ -132,8 +132,9 @@ footer p {
 
   .about-info {
     width: 75%;
+    padding: 3rem;
     text-align: center;
-    font-size: larger;
+    font-size: xx-large;
   }
 }
 
@@ -150,8 +151,9 @@ footer p {
 
   .about-info {
     width: 75%;
+    padding: 3rem;
     text-align: center;
-    font-size: larger;
+    font-size: xx-large;
   }
 }
 
@@ -165,6 +167,6 @@ of the page, without that gap at the bottom.
 Maybe I need to add the background color only to the about me
 section on desktop view. 
 
+SKILLS - get rid of the white space
 NAV MENU - needs a hamburger icon, so I need to get one
-ABOUT ME - shrink how long it is, make is display block
 FOOTER - Make it bigger*/
