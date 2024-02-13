@@ -127,3 +127,16 @@ footer h4 {
 .hidden {
   display: none;
 }
+
+@media screen and (max-width: 1092px) {
+  .projects {
+    padding-bottom: 3.9rem;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .projects {
+    padding-bottom: 3.9rem;
+  }
+}
