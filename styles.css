@@ -138,8 +138,31 @@ footer p {
   }
 }
 
-.blink_me {
-  animation: blinker 5s linear infinite;
+.ty_message {
+  margin: 1rem;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-left: 1rem;
+  color: #998080;
+  animation: blinker 11.5s linear infinite;
+}
+
+.happy {
+  margin-top: 8rem;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-left: 7.5rem;
+  color: #008080;
+  animation: blinker 16.5 linear infinite;
+}
+
+.welcome {
+  margin-top: 7rem;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-left: 15rem;
+  color: #998080;
+  animation: blinker 20.5s linear infinite;
 }
 
 @keyframes blinker {
