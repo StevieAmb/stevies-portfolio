@@ -126,7 +126,7 @@ footer p {
   font-size: x-large;
   margin-left: 1rem;
   color: #998080;
-  animation: blinker 11.5s linear infinite;
+  animation: blinker 10s linear infinite;
 }
 
 .happy {
@@ -135,7 +135,7 @@ footer p {
   font-size: x-large;
   margin-left: 7.5rem;
   color: #008080;
-  animation: blinker 16.5 linear infinite;
+  animation: blinker 15s linear infinite;
 }
 
 .welcome {
@@ -144,7 +144,7 @@ footer p {
   font-size: x-large;
   margin-left: 15rem;
   color: #998080;
-  animation: blinker 20.5s linear infinite;
+  animation: blinker 20s linear infinite;
 }
 
 @keyframes blinker {
