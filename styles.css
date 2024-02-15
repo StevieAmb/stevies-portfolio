@@ -120,24 +120,6 @@ footer p {
   display: none;
 }
 
-@media screen and (max-width: 1092px) {
-  .about-me {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3rem;
-    margin: 4rem 0 0 0;
-    padding-bottom: 0;
-  }
-
-  .about-info {
-    width: 75%;
-    padding: 3rem;
-    text-align: center;
-    font-size: xx-large;
-  }
-}
-
 .ty_message {
   margin: 1rem;
   font-weight: bolder;
@@ -171,6 +153,29 @@ footer p {
   }
 }
 
+@media screen and (max-width: 1092px) {
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin: 4rem 0 0 0;
+    padding-bottom: 0;
+  }
+
+  .blinking-section {
+    display: none;
+  }
+
+  .about-info {
+    width: 75%;
+    padding: 3rem;
+    text-align: center;
+    font-size: xx-large;
+  }
+}
+
+
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   .about-me {
@@ -180,6 +185,10 @@ footer p {
     gap: 3rem;
     margin: 4rem 0 0 0;
     padding-bottom: 0;
+  }
+
+  .blinking-section {
+    display: none;
   }
 
   .about-info {
