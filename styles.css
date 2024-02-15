@@ -120,6 +120,39 @@ footer p {
   display: none;
 }
 
+.ty_message {
+  margin: 1rem;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-left: 1rem;
+  color: #998080;
+  animation: blinker 11.5s linear infinite;
+}
+
+.happy {
+  margin-top: 8rem;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-left: 7.5rem;
+  color: #008080;
+  animation: blinker 16.5 linear infinite;
+}
+
+.welcome {
+  margin-top: 7rem;
+  font-weight: bolder;
+  font-size: x-large;
+  margin-left: 15rem;
+  color: #998080;
+  animation: blinker 20.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 @media screen and (max-width: 1092px) {
   .about-me {
     display: flex;
@@ -130,6 +163,10 @@ footer p {
     padding-bottom: 0;
   }
 
+  .blinking-section {
+    display: none;
+  }
+
   .about-info {
     width: 75%;
     padding: 3rem;
@@ -137,6 +174,7 @@ footer p {
     font-size: xx-large;
   }
 }
+
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
@@ -149,6 +187,10 @@ footer p {
     padding-bottom: 0;
   }
 
+  .blinking-section {
+    display: none;
+  }
+
   .about-info {
     width: 75%;
     padding: 3rem;
@@ -156,6 +198,8 @@ footer p {
     font-size: xx-large;
   }
 }
+
+
 
 
 /* To make this mobile responsive, the front page,
